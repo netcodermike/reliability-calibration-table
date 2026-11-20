@@ -1,0 +1,40 @@
+{
+  "command": [
+    "{python}",
+    "app.py"
+  ],
+  "expected": {
+    "brier": 0.175,
+    "ece": 0.3,
+    "bins": [
+      {
+        "lower": 0,
+        "upper": 0.25,
+        "count": 1,
+        "mean": 0,
+        "actual": 0
+      },
+      {
+        "lower": 0.25,
+        "upper": 0.5,
+        "count": 1,
+        "mean": 0.25,
+        "actual": 0
+      },
+      {
+        "lower": 0.5,
+        "upper": 0.75,
+        "count": 1,
+        "mean": 0.5,
+        "actual": 1
+      },
+      {
+        "lower": 0.75,
+        "upper": 1,
+        "count": 2,
+        "mean": 0.875,
+        "actual": 0.5
+      }
+    ]
+  }
+}
